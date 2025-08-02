@@ -102,34 +102,45 @@ margin: 0;
 
 }
 
+
 /* about */
-.about{
-   background-color: rgb(141, 237, 205);
-   border-radius: 10px;
-   margin-top: 90px;
-   
-   
-
-}
-
 .about-t{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
-    text-align: center;
-    margin-bottom: 1px;
-    margin-top: 10px;
+    padding-top: 20px;
+    margin: 0;
     
+    
+}
+.about-p{
+    font-size: 15px;
+    color: rgb(7, 0, 1);
+    padding-bottom: 50px;
+    margin: 0;
+}
+.about-us{
+    background-color: rgb(141, 237, 205);
+  border-radius: 5px;
+  text-align: center;
+  padding: 0 100px;
+  margin: 70px 50px;
 
 }
-.about-des{
-    font-size: 13px;
-    margin-top: 1px;
-      
-
-
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+    
 }
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+.item-description{
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: rgb(13, 2, 9);
+}
+.item-title{
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(247, 10, 10);
+    
 
 }
