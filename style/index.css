@@ -280,4 +280,55 @@ border-radius: 3px;
 html{
     background-color: rgb(240, 241, 233);
 }
+/* footer */
+
+footer{
+    margin: 0px;
+     background-color: rgb(141, 237, 205);
+  border-radius: 5px;
+  padding: 20px 30px;
+  display: flex;
+  gap: 130px;
+
+  /* display: block; */
+}
+
+.footer-colum{
+    width: 50%;
+    padding: 10px;
+    box-shadow:0px 6px 50px 0px rgb(20, 2, 17) ;
+    padding: 20px 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+form{
+    
+    padding: 15px;
+    
+    
+}
+.sub{
+    font-size: large;
+    margin-left: 15px;
+    color: red;
+    border-radius: 5px;
+}
+.sub:hover{
+    background-color: chartreuse;
+}
+.section-title{
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: underline rgb(247, 10, 10);
+}
+.section-des{
+    font-style: italic;
+}
+
+
+
+
+
+
+
 
